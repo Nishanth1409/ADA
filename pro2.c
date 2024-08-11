@@ -45,7 +45,7 @@ void main()
                     } 
                 } 
                 visited[target]=1; 
-                printf("\n edge %d(%d->%d)%d",ne++,source,target,min); 
+                printf("\n edge %d(%d->%d)%d \n",ne++,source,target,min); 
             mincost=mincost+min; 
         } 
         printf("mincost of spanning tree %d \n",mincost); 
@@ -59,3 +59,4 @@ void main()
 // 6  8  5  0
 
 // 0
+
